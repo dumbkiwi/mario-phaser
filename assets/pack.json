@@ -23,6 +23,21 @@
         "url": "./assets/maps/level1Room2.json"
       },
       {
+        "type": "tilemapTiledJSON",
+        "key": "level2",
+        "url": "./assets/maps/level2.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level2room1",
+        "url": "./assets/maps/level2room1.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level2room2",
+        "url": "./assets/maps/level2room2.json"
+      },
+      {
         "type": "image",
         "key": "tiles",
         "url": "./assets/tiles/tiles.png"
@@ -100,6 +115,33 @@
         "type": "spritesheet",
         "key": "coin2",
         "url": "./assets/collectibles/coin2.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "verticalGate",
+        "url": "./assets/gate/verticalGate.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "horizontalGate",
+        "url": "./assets/gate/horizontalGate.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "switch",
+        "url": "./assets/switch/switch.png",
         "frameConfig": {
           "frameWidth": 8,
           "frameHeight": 8

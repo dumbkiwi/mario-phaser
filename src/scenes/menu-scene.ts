@@ -1,3 +1,5 @@
+import { GAME_GATE_REGISTRY_ENTRY } from "../interfaces/gate.interface";
+
 export class MenuScene extends Phaser.Scene {
   private startKey: Phaser.Input.Keyboard.Key;
   private bitmapTexts: Phaser.GameObjects.BitmapText[] = [];
@@ -28,6 +30,19 @@ export class MenuScene extends Phaser.Scene {
         8
       )
     );
+
+    // reset gates registry
+    const gates = this.registry.get(GAME_GATE_REGISTRY_ENTRY);
+
+    if (gates !== undefined && gates !== null) {
+      let newState = {...gates};
+
+      Object.keys(gates).forEach((key) => {
+        newState[key] = false;
+      });
+
+      this.registry.set(GAME_GATE_REGISTRY_ENTRY, newState);
+    }
   }
 
   update(): void {
@@ -41,7 +56,7 @@ export class MenuScene extends Phaser.Scene {
   private initGlobalDataManager(): void {
     this.registry.set('time', 400);
     this.registry.set('level', 'level1');
-    this.registry.set('world', '1-1');
+    this.registry.set('world', '1');
     this.registry.set('worldTime', 'WORLD TIME');
     this.registry.set('score', 0);
     this.registry.set('coins', 0);

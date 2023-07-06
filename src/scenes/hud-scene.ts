@@ -23,6 +23,14 @@ export class HUDScene extends Phaser.Scene {
     level.events.on('coinsChanged', this.updateCoins, this);
     level.events.on('scoreChanged', this.updateScore, this);
     level.events.on('livesChanged', this.updateLives, this);
+    this.registry.events.on('changedata', this.updateWorld, this);
+
+    this.events.on('shutdown', () => {
+      level.events.off('coinsChanged', this.updateCoins, this);
+      level.events.off('scoreChanged', this.updateScore, this);
+      level.events.off('livesChanged', this.updateLives, this);
+      this.registry.events.off('changedata', this.updateWorld, this);
+    });
 
     // add timer
     this.timer = this.time.addEvent({
@@ -64,5 +72,11 @@ export class HUDScene extends Phaser.Scene {
     this.textElements
       .get('LIVES')
       .setText(`Lives: ${this.registry.get('lives')}`);
+  }
+
+  private updateWorld(parent: Phaser.Data.DataManager, key: string, data: any, previousValue: any) {
+    if (key === 'world') {
+      this.textElements.get('WORLD').setText(`${this.registry.get('world')}`);
+    }
   }
 }

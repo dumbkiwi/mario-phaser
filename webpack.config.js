@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/game.ts',
@@ -21,12 +22,17 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: 'index.html'
+    })
+  ],
   stats: 'errors-warnings',
   devtool: 'eval',
   devServer: {
     static: './',
-    host: 'localhost',
-    port: 8080,
+    // host: 'localhost',
+    // port: 8080,
     open: true
   },
   resolve: {

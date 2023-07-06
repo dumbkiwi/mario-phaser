@@ -15,30 +15,13 @@
                  "type":"player",
                  "visible":true,
                  "width":8,
-                 "x":16,
-                 "y":16
+                 "x":207.494318181818,
+                 "y":112.596590909091
                 }, 
                 {
-                 "height":8,
-                 "id":291,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":16,
-                 "y":112
-                }, 
-                {
-                 "height":16,
-                 "id":314,
-                 "name":"level1",
+                 "height":12,
+                 "id":301,
+                 "name":"level2",
                  "properties":[
                         {
                          "name":"direction",
@@ -48,278 +31,23 @@
                         {
                          "name":"marioSpawnX",
                          "type":"int",
-                         "value":1124
+                         "value":30
                         }, 
                         {
                          "name":"marioSpawnY",
                          "type":"int",
-                         "value":96
+                         "value":58
                         }],
                  "rotation":0,
                  "type":"portal",
                  "visible":true,
-                 "width":8,
-                 "x":126,
-                 "y":40
+                 "width":6,
+                 "x":223.15625,
+                 "y":114.40625
                 }, 
                 {
                  "height":8,
-                 "id":316,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":32,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":317,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":48,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":318,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":64,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":319,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":80,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":320,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":96,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":321,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":112,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":322,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":128,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":323,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":144,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":324,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":128,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":325,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":112,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":326,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":96,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":327,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":64,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":328,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":80,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":329,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":48,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":330,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":40,
-                 "y":40
-                }, 
-                {
-                 "height":8,
-                 "id":331,
+                 "id":303,
                  "name":"collectible",
                  "properties":[
                         {
@@ -332,11 +60,11 @@
                  "visible":true,
                  "width":8,
                  "x":56,
-                 "y":40
+                 "y":88
                 }, 
                 {
                  "height":8,
-                 "id":332,
+                 "id":304,
                  "name":"collectible",
                  "properties":[
                         {
@@ -348,30 +76,12 @@
                  "type":"collectible",
                  "visible":true,
                  "width":8,
-                 "x":72,
-                 "y":40
-                },
-            
-                {
-                 "height":8,
-                 "id":333,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":88,
-                 "y":40
+                 "x":97.8181818181818,
+                 "y":79.0909090909091
                 }, 
                 {
                  "height":8,
-                 "id":334,
+                 "id":305,
                  "name":"collectible",
                  "properties":[
                         {
@@ -383,25 +93,30 @@
                  "type":"collectible",
                  "visible":true,
                  "width":8,
-                 "x":104,
-                 "y":40
+                 "x":48,
+                 "y":72
                 }, 
                 {
                  "height":8,
-                 "id":335,
-                 "name":"collectible",
+                 "id":308,
+                 "name":"switch1",
                  "properties":[
                         {
-                         "name":"kindOfCollectible",
+                         "name":"invert",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"target",
                          "type":"string",
-                         "value":"coin2"
+                         "value":"gate0a"
                         }],
                  "rotation":0,
-                 "type":"collectible",
+                 "type":"switch",
                  "visible":true,
                  "width":8,
-                 "x":122,
-                 "y":40
+                 "x":40,
+                 "y":120
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -411,21 +126,7 @@
         }, 
         {
          "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAAAAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAAEcAAABIAAAAGQAAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARwAAAEgAAAAZAAAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHAAAASAAAABkAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAOgAAAD0AAABIAAAAGQAAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEkAAABKAAAATQAAAEgAAAAZAAAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAABkAAAAZAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAAAAAAAAAAAACQAAABkAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABkAAAAAAAAAAAAAAAAAAAAJAAAAGQAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAAAkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAAAAAAAAAAABkAAAAZAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAA",
-         "encoding":"base64",
-         "height":18,
-         "id":2,
-         "name":"foregroundLayer",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":20,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+         "data":"awAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAA",
          "encoding":"base64",
          "height":18,
          "id":3,
@@ -433,12 +134,40 @@
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":20,
+         "width":30,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAFAAAABQAAAAUAAAAGAAAAAAAAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGkAAABpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAIsAAAAAAAAAAAAAAAAAAAAAAAAAaQAAAAAAAAAAAAAAAAAAAAAAAACdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAANAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAGQAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRAAAAUgAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDAAAARAAAAAAAAAAAAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABpAAAAaQAAAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAAAA0AAAANQAAADYAAAAAAAAAAAAAAAAAAAATAAAAAAAAADkAAAA6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEMAAABEAAAARQAAAEYAAAAAAAAAAAAAAAAAAAATAAAAAAAAAEkAAABKAAAAAAAAAAAAAAAAAAAAAAAAAFEAAABSAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALwAAAB8AAAAfAAAALwAAADAAAAAwAAAAMAAAADAAAAA\/AAAAGQAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAGkAAABpAAAAaQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8AAAAwAAAAMAAAAB8AAAAfAAAAHQAAAAAAAAAAAAAAAAAAAAAAAAAdAAAAGQAAABkAAAAZAAAA",
+         "encoding":"base64",
+         "height":18,
+         "id":2,
+         "name":"foregroundLayer",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":30,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+         "encoding":"base64",
+         "height":18,
+         "id":4,
+         "name":"decorationLayer",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":30,
          "x":0,
          "y":0
         }],
- "nextlayerid":4,
- "nextobjectid":336,
+ "nextlayerid":5,
+ "nextobjectid":309,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.1",
@@ -475,7 +204,13 @@
                  "id":5
                 }, 
                 {
-                 "id":6
+                 "id":6,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":7
@@ -521,9 +256,21 @@
                 }, 
                 {
                  "id":19
-                },
-            
+                }, 
                 {
+                 "animation":[
+                        {
+                         "duration":2000,
+                         "tileid":20
+                        }, 
+                        {
+                         "duration":500,
+                         "tileid":8
+                        }, 
+                        {
+                         "duration":500,
+                         "tileid":9
+                        }],
                  "id":20
                 }, 
                 {
@@ -551,6 +298,27 @@
                  "id":26
                 }, 
                 {
+                 "animation":[
+                        {
+                         "duration":2000,
+                         "tileid":27
+                        }, 
+                        {
+                         "duration":100,
+                         "tileid":12
+                        }, 
+                        {
+                         "duration":1000,
+                         "tileid":13
+                        }, 
+                        {
+                         "duration":50,
+                         "tileid":14
+                        }, 
+                        {
+                         "duration":50,
+                         "tileid":12
+                        }],
                  "id":27
                 }, 
                 {
@@ -558,9 +326,16 @@
                 }, 
                 {
                  "id":29
-                }, 
+                },
+            
                 {
-                 "id":30
+                 "id":30,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":31
@@ -600,8 +375,7 @@
                 }, 
                 {
                  "id":39
-                },
-            
+                }, 
                 {
                  "id":40
                 }, 
@@ -621,10 +395,22 @@
                  "id":45
                 }, 
                 {
-                 "id":46
+                 "id":46,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":47
+                 "id":47,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":48
@@ -663,24 +449,6 @@
                         }]
                 }, 
                 {
-                 "id":54,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":55,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
                  "id":56,
                  "properties":[
                         {
@@ -697,28 +465,28 @@
                          "type":"bool",
                          "value":true
                         }]
+                }, 
+                {
+                 "id":58
+                }, 
+                {
+                 "id":59
                 },
             
                 {
-                 "id":58,
+                 "id":60
+                }, 
+                {
+                 "id":61
+                }, 
+                {
+                 "id":62,
                  "properties":[
                         {
                          "name":"collide",
                          "type":"bool",
                          "value":true
                         }]
-                }, 
-                {
-                 "id":59,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":62
                 }, 
                 {
                  "id":63
@@ -742,7 +510,7 @@
                  "id":69
                 }, 
                 {
-                 "id":60,
+                 "id":54,
                  "properties":[
                         {
                          "name":"collide",
@@ -751,25 +519,7 @@
                         }]
                 }, 
                 {
-                 "id":61,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":70,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":71,
+                 "id":55,
                  "properties":[
                         {
                          "name":"collide",
@@ -796,44 +546,89 @@
                         }]
                 }, 
                 {
-                 "id":74,
+                 "id":74
+                }, 
+                {
+                 "id":75
+                }, 
+                {
+                 "id":76
+                }, 
+                {
+                 "id":77
+                }, 
+                {
+                 "id":78,
                  "properties":[
                         {
                          "name":"collide",
                          "type":"bool",
                          "value":true
                         }]
-                }, 
-                {
-                 "id":75,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":78
                 }, 
                 {
                  "id":79
-                },
-            
-                {
-                 "id":80
                 }, 
                 {
-                 "id":81
+                 "id":80,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":8,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":8,
+                             "x":0,
+                             "y":0
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":82
+                 "id":81,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":83
+                 "id":82,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":76,
+                 "id":83,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":70,
                  "properties":[
                         {
                          "name":"collide",
@@ -845,6 +640,19 @@
                  "id":85
                 }, 
                 {
+                 "animation":[
+                        {
+                         "duration":1500,
+                         "tileid":86
+                        }, 
+                        {
+                         "duration":1500,
+                         "tileid":85
+                        }, 
+                        {
+                         "duration":1500,
+                         "tileid":87
+                        }],
                  "id":86
                 }, 
                 {
@@ -855,7 +663,8 @@
                 }, 
                 {
                  "id":89
-                }, 
+                },
+            
                 {
                  "id":90
                 }, 
@@ -875,6 +684,15 @@
                  "id":95
                 }, 
                 {
+                 "animation":[
+                        {
+                         "duration":750,
+                         "tileid":96
+                        }, 
+                        {
+                         "duration":750,
+                         "tileid":112
+                        }],
                  "id":96
                 }, 
                 {
@@ -884,11 +702,19 @@
                  "id":98
                 }, 
                 {
+                 "animation":[
+                        {
+                         "duration":750,
+                         "tileid":99
+                        }, 
+                        {
+                         "duration":750,
+                         "tileid":115
+                        }],
                  "id":99
-                },
-            
+                }, 
                 {
-                 "id":77,
+                 "id":71,
                  "properties":[
                         {
                          "name":"collide",
@@ -1013,8 +839,7 @@
                 }, 
                 {
                  "id":139
-                },
-            
+                }, 
                 {
                  "id":140
                 }, 
@@ -1050,7 +875,8 @@
                 }, 
                 {
                  "id":149
-                }, 
+                },
+            
                 {
                  "id":150
                 }, 
@@ -1080,8 +906,7 @@
                 }, 
                 {
                  "id":159
-                },
-            
+                }, 
                 {
                  "id":160
                 }, 
@@ -1202,8 +1027,7 @@
                 }, 
                 {
                  "id":199
-                },
-            
+                }, 
                 {
                  "id":200
                 }, 
@@ -1233,7 +1057,8 @@
                 }, 
                 {
                  "id":209
-                }, 
+                },
+            
                 {
                  "id":210
                 }, 
@@ -1263,8 +1088,7 @@
                 }, 
                 {
                  "id":219
-                },
-            
+                }, 
                 {
                  "id":220
                 }, 
@@ -1385,8 +1209,7 @@
                 }, 
                 {
                  "id":259
-                },
-            
+                }, 
                 {
                  "id":260
                 }, 
@@ -1416,7 +1239,8 @@
                 }, 
                 {
                  "id":269
-                }, 
+                },
+            
                 {
                  "id":270
                 }, 
@@ -1446,8 +1270,7 @@
                 }, 
                 {
                  "id":279
-                },
-            
+                }, 
                 {
                  "id":280
                 }, 
@@ -1568,8 +1391,7 @@
                 }, 
                 {
                  "id":319
-                },
-            
+                }, 
                 {
                  "id":320
                 }, 
@@ -1599,7 +1421,8 @@
                 }, 
                 {
                  "id":329
-                }, 
+                },
+            
                 {
                  "id":330
                 }, 
@@ -1629,8 +1452,7 @@
                 }, 
                 {
                  "id":339
-                },
-            
+                }, 
                 {
                  "id":340
                 }, 
@@ -1667,10 +1489,56 @@
                 {
                  "id":351
                 }],
-         "tilewidth":8
+         "tilewidth":8,
+         "wangsets":[
+                {
+                 "colors":[
+                        {
+                         "color":"#ff0000",
+                         "name":"",
+                         "probability":1,
+                         "tile":-1
+                        }],
+                 "name":"waterfall_platform",
+                 "tile":-1,
+                 "type":"mixed",
+                 "wangtiles":[
+                        {
+                         "tileid":80,
+                         "wangid":[0, 0, 1, 1, 1, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":81,
+                         "wangid":[0, 0, 1, 1, 1, 1, 1, 0]
+                        }, 
+                        {
+                         "tileid":82,
+                         "wangid":[0, 0, 1, 1, 1, 1, 1, 0]
+                        }, 
+                        {
+                         "tileid":83,
+                         "wangid":[0, 0, 0, 0, 1, 1, 1, 0]
+                        }, 
+                        {
+                         "tileid":96,
+                         "wangid":[1, 1, 1, 1, 1, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":97,
+                         "wangid":[1, 1, 1, 1, 1, 1, 1, 1]
+                        }, 
+                        {
+                         "tileid":99,
+                         "wangid":[1, 0, 0, 0, 1, 1, 1, 1]
+                        }]
+                }]
+        }, 
+        {
+         "firstgid":353,
+         "source":":\/automap-tiles.tsx"
         }],
  "tilewidth":8,
  "type":"map",
  "version":"1.10",
- "width":20
+ "width":30
 }

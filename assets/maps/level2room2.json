@@ -15,30 +15,13 @@
                  "type":"player",
                  "visible":true,
                  "width":8,
-                 "x":16,
-                 "y":16
+                 "x":22.9488636363636,
+                 "y":41.1647727272727
                 }, 
                 {
-                 "height":8,
-                 "id":291,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":16,
-                 "y":112
-                }, 
-                {
-                 "height":16,
-                 "id":314,
-                 "name":"level1",
+                 "height":12,
+                 "id":301,
+                 "name":"level2",
                  "properties":[
                         {
                          "name":"direction",
@@ -48,360 +31,188 @@
                         {
                          "name":"marioSpawnX",
                          "type":"int",
-                         "value":1124
+                         "value":25
                         }, 
                         {
                          "name":"marioSpawnY",
                          "type":"int",
-                         "value":96
+                         "value":133
                         }],
                  "rotation":0,
                  "type":"portal",
                  "visible":true,
-                 "width":8,
-                 "x":126,
-                 "y":40
+                 "width":6,
+                 "x":223.15625,
+                 "y":114.40625
                 }, 
                 {
                  "height":8,
-                 "id":316,
-                 "name":"collectible",
+                 "id":304,
+                 "name":"gate1",
                  "properties":[
                         {
-                         "name":"kindOfCollectible",
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"gateType",
                          "type":"string",
-                         "value":"coin2"
+                         "value":"horizontalGate"
+                        }, 
+                        {
+                         "name":"invert",
+                         "type":"bool",
+                         "value":false
                         }],
                  "rotation":0,
-                 "type":"collectible",
+                 "type":"gate",
                  "visible":true,
                  "width":8,
-                 "x":32,
-                 "y":112
+                 "x":136,
+                 "y":80
                 }, 
                 {
                  "height":8,
-                 "id":317,
-                 "name":"collectible",
+                 "id":305,
+                 "name":"gate1",
                  "properties":[
                         {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":48,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":318,
-                 "name":"collectible",
-                 "properties":[
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }, 
                         {
-                         "name":"kindOfCollectible",
+                         "name":"gateType",
                          "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":64,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":319,
-                 "name":"collectible",
-                 "properties":[
+                         "value":"horizontalGate"
+                        }, 
                         {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
+                         "name":"invert",
+                         "type":"bool",
+                         "value":false
                         }],
                  "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":80,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":320,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":96,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":321,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":112,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":322,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":128,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":323,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
+                 "type":"gate",
                  "visible":true,
                  "width":8,
                  "x":144,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":324,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":128,
                  "y":80
                 }, 
                 {
                  "height":8,
-                 "id":325,
-                 "name":"collectible",
+                 "id":306,
+                 "name":"gate1",
                  "properties":[
                         {
-                         "name":"kindOfCollectible",
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"gateType",
                          "type":"string",
-                         "value":"coin2"
+                         "value":"horizontalGate"
+                        }, 
+                        {
+                         "name":"invert",
+                         "type":"bool",
+                         "value":false
                         }],
                  "rotation":0,
-                 "type":"collectible",
+                 "type":"gate",
                  "visible":true,
                  "width":8,
-                 "x":112,
+                 "x":152,
                  "y":80
                 }, 
                 {
                  "height":8,
-                 "id":326,
-                 "name":"collectible",
+                 "id":307,
+                 "name":"switch1",
                  "properties":[
                         {
-                         "name":"kindOfCollectible",
+                         "name":"invert",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"target",
                          "type":"string",
-                         "value":"coin2"
+                         "value":"gate0b"
                         }],
                  "rotation":0,
-                 "type":"collectible",
+                 "type":"switch",
                  "visible":true,
                  "width":8,
-                 "x":96,
-                 "y":80
+                 "x":136,
+                 "y":96
                 }, 
                 {
                  "height":8,
-                 "id":327,
-                 "name":"collectible",
+                 "id":308,
+                 "name":"switch1",
                  "properties":[
                         {
-                         "name":"kindOfCollectible",
+                         "name":"invert",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"target",
                          "type":"string",
-                         "value":"coin2"
+                         "value":"gate1"
                         }],
                  "rotation":0,
-                 "type":"collectible",
+                 "type":"switch",
                  "visible":true,
                  "width":8,
-                 "x":64,
-                 "y":80
+                 "x":136,
+                 "y":128
                 }, 
                 {
                  "height":8,
-                 "id":328,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
+                 "id":309,
+                 "name":"goomba",
                  "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":80,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":329,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":48,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":330,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":40,
-                 "y":40
-                }, 
-                {
-                 "height":8,
-                 "id":331,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":56,
-                 "y":40
-                }, 
-                {
-                 "height":8,
-                 "id":332,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
+                 "type":"goomba",
                  "visible":true,
                  "width":8,
                  "x":72,
-                 "y":40
-                },
-            
-                {
-                 "height":8,
-                 "id":333,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
-                 "rotation":0,
-                 "type":"collectible",
-                 "visible":true,
-                 "width":8,
-                 "x":88,
-                 "y":40
+                 "y":120
                 }, 
                 {
                  "height":8,
-                 "id":334,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
+                 "id":310,
+                 "name":"goomba",
                  "rotation":0,
-                 "type":"collectible",
+                 "type":"goomba",
                  "visible":true,
                  "width":8,
-                 "x":104,
-                 "y":40
+                 "x":39.2727272727273,
+                 "y":86.1818181818182
                 }, 
                 {
                  "height":8,
-                 "id":335,
-                 "name":"collectible",
-                 "properties":[
-                        {
-                         "name":"kindOfCollectible",
-                         "type":"string",
-                         "value":"coin2"
-                        }],
+                 "id":312,
+                 "name":"goomba",
                  "rotation":0,
-                 "type":"collectible",
+                 "type":"goomba",
                  "visible":true,
                  "width":8,
-                 "x":122,
-                 "y":40
+                 "x":176,
+                 "y":128
+                }, 
+                {
+                 "height":8,
+                 "id":313,
+                 "name":"goomba",
+                 "rotation":0,
+                 "type":"goomba",
+                 "visible":true,
+                 "width":8,
+                 "x":152,
+                 "y":96
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -411,21 +222,7 @@
         }, 
         {
          "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAAAAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAAEcAAABIAAAAGQAAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARwAAAEgAAAAZAAAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHAAAASAAAABkAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAOgAAAD0AAABIAAAAGQAAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEkAAABKAAAATQAAAEgAAAAZAAAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAABkAAAAZAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAAAAAAAAAAAACQAAABkAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABkAAAAAAAAAAAAAAAAAAAAJAAAAGQAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAAAkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAAAAAAAAAAABkAAAAZAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAA",
-         "encoding":"base64",
-         "height":18,
-         "id":2,
-         "name":"foregroundLayer",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":20,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+         "data":"awAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAA",
          "encoding":"base64",
          "height":18,
          "id":3,
@@ -433,12 +230,40 @@
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":20,
+         "width":30,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAAAA4AAAAAAAAAAAAAAA3AAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEsAAABMAAAAAAAAAAAAAABLAAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAANQAAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOQAAAD0AAAA+AAAAOgAAADoAAAA9AAAAPgAAADoAAAAAAAAAAAAAAAAAAAA3AAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAARQAAAEYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASQAAAE0AAABOAAAASgAAAEoAAABNAAAATgAAAEoAAAAAAAAAAAAAAAAAAABLAAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAMwAAADQAAAAzAAAANAAAAAAAAAAAAAAANwAAADgAAAAfAAAAHwAAADsAAAA8AAAAAAAAAAAAAAA7AAAAPAAAAAAAAAAAAAAAAAAAADkAAAA9AAAAPgAAADoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAQwAAAEQAAABDAAAARAAAAAAAAAAAAAAASwAAAEwAAAAAAAAAAAAAADsAAAA8AAAAAAAAAAAAAAA7AAAAPAAAAAAAAAAAAAAAAAAAAEkAAABNAAAATgAAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAPQAAAD4AAAA6AAAAAAAAADsAAAA8AAAAMwAAADQAAAA7AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAASgAAAEoAAABKAAAASgAAAEoAAABKAAAATQAAAE4AAABKAAAAAAAAAEsAAABMAAAAQwAAAEQAAAA7AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAGQAAABkAAAAzAAAANAAAAAAAAAAAAAAAGQAAABkAAAAAAAAAOQAAAD0AAAA+AAAAOgAAAAAAAAA7AAAAPAAAAB8AAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAAB8AAAAfAAAAHwAAABkAAAAZAAAAGQAAABkAAABDAAAARAAAAAAAAAAAAAAAGQAAABkAAAAAAAAASQAAAE0AAABOAAAASgAAAAAAAAA7AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAPQAAAD4AAAA6AAAAOgAAADoAAAA6AAAAPQAAAD4AAAA6AAAAAAAAABkAAAAZAAAAAAAAAAAAAAA7AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAATQAAAE4AAABKAAAASgAAAEoAAABKAAAATQAAAE4AAABKAAAAAAAAABkAAAAZAAAAAAAAADkAAAA9AAAAPgAAADoAAAAZAAAAGQAAADoAAAA9AAAAPgAAADoAAAAfAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAOwAAADwAAAAAAAAAAAAAABkAAAAZAAAASwAAAEwAAAAAAAAAAAAAABkAAAAZAAAAAAAAAEkAAABNAAAATgAAAEoAAAAZAAAAGQAAAEoAAABNAAAATgAAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkAAAA6AAAAOwAAADwAAAAAAAAAAAAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAAAAAAArAAAALAAAAAAAAAAAAAAAAAAAAAAAAAArAAAALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEkAAABKAAAAGQAAABkAAAAAAAAAOQAAAD0AAAA+AAAAOgAAADoAAAA6AAAAOgAAAD0AAAA+AAAAOgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALwAAADAAAAA\/AAAAGQAAABkAAAAZAAAAGQAAABkAAAAAAAAASQAAAE0AAABOAAAASgAAAEoAAABKAAAASgAAAE0AAABOAAAASgAAAB8AAAAfAAAAHwAAAC8AAAAwAAAAPwAAAB8AAAAfAAAAHwAAAB8AAAAfAAAAHQAAAAAAAAAdAAAAGQAAABkAAAAZAAAA",
+         "encoding":"base64",
+         "height":18,
+         "id":2,
+         "name":"foregroundLayer",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":30,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+         "encoding":"base64",
+         "height":18,
+         "id":4,
+         "name":"decorationLayer",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":30,
          "x":0,
          "y":0
         }],
- "nextlayerid":4,
- "nextobjectid":336,
+ "nextlayerid":5,
+ "nextobjectid":314,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.1",
@@ -475,7 +300,13 @@
                  "id":5
                 }, 
                 {
-                 "id":6
+                 "id":6,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":7
@@ -521,9 +352,21 @@
                 }, 
                 {
                  "id":19
-                },
-            
+                }, 
                 {
+                 "animation":[
+                        {
+                         "duration":2000,
+                         "tileid":20
+                        }, 
+                        {
+                         "duration":500,
+                         "tileid":8
+                        }, 
+                        {
+                         "duration":500,
+                         "tileid":9
+                        }],
                  "id":20
                 }, 
                 {
@@ -551,16 +394,50 @@
                  "id":26
                 }, 
                 {
+                 "animation":[
+                        {
+                         "duration":2000,
+                         "tileid":27
+                        }, 
+                        {
+                         "duration":100,
+                         "tileid":12
+                        }, 
+                        {
+                         "duration":1000,
+                         "tileid":13
+                        }, 
+                        {
+                         "duration":50,
+                         "tileid":14
+                        }, 
+                        {
+                         "duration":50,
+                         "tileid":12
+                        }],
                  "id":27
                 }, 
                 {
-                 "id":28
+                 "id":28,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":29
-                }, 
+                },
+            
                 {
-                 "id":30
+                 "id":30,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":31
@@ -600,8 +477,7 @@
                 }, 
                 {
                  "id":39
-                },
-            
+                }, 
                 {
                  "id":40
                 }, 
@@ -621,10 +497,22 @@
                  "id":45
                 }, 
                 {
-                 "id":46
+                 "id":46,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":47
+                 "id":47,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":48
@@ -663,24 +551,6 @@
                         }]
                 }, 
                 {
-                 "id":54,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":55,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
                  "id":56,
                  "properties":[
                         {
@@ -697,8 +567,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
-            
+                }, 
                 {
                  "id":58,
                  "properties":[
@@ -716,9 +585,34 @@
                          "type":"bool",
                          "value":true
                         }]
+                },
+            
+                {
+                 "id":60,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":62
+                 "id":61,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":62,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":63
@@ -742,7 +636,7 @@
                  "id":69
                 }, 
                 {
-                 "id":60,
+                 "id":54,
                  "properties":[
                         {
                          "name":"collide",
@@ -751,25 +645,7 @@
                         }]
                 }, 
                 {
-                 "id":61,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":70,
-                 "properties":[
-                        {
-                         "name":"collide",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":71,
+                 "id":55,
                  "properties":[
                         {
                          "name":"collide",
@@ -814,26 +690,95 @@
                         }]
                 }, 
                 {
-                 "id":78
+                 "id":76,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":77,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":78,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":79
-                },
-            
-                {
-                 "id":80
                 }, 
                 {
-                 "id":81
+                 "id":80,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":8,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":8,
+                             "x":0,
+                             "y":0
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":82
+                 "id":81,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":83
+                 "id":82,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
-                 "id":76,
+                 "id":83,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":70,
                  "properties":[
                         {
                          "name":"collide",
@@ -845,6 +790,19 @@
                  "id":85
                 }, 
                 {
+                 "animation":[
+                        {
+                         "duration":1500,
+                         "tileid":86
+                        }, 
+                        {
+                         "duration":1500,
+                         "tileid":85
+                        }, 
+                        {
+                         "duration":1500,
+                         "tileid":87
+                        }],
                  "id":86
                 }, 
                 {
@@ -855,7 +813,8 @@
                 }, 
                 {
                  "id":89
-                }, 
+                },
+            
                 {
                  "id":90
                 }, 
@@ -875,6 +834,15 @@
                  "id":95
                 }, 
                 {
+                 "animation":[
+                        {
+                         "duration":750,
+                         "tileid":96
+                        }, 
+                        {
+                         "duration":750,
+                         "tileid":112
+                        }],
                  "id":96
                 }, 
                 {
@@ -884,11 +852,19 @@
                  "id":98
                 }, 
                 {
+                 "animation":[
+                        {
+                         "duration":750,
+                         "tileid":99
+                        }, 
+                        {
+                         "duration":750,
+                         "tileid":115
+                        }],
                  "id":99
-                },
-            
+                }, 
                 {
-                 "id":77,
+                 "id":71,
                  "properties":[
                         {
                          "name":"collide",
@@ -1013,8 +989,7 @@
                 }, 
                 {
                  "id":139
-                },
-            
+                }, 
                 {
                  "id":140
                 }, 
@@ -1050,7 +1025,8 @@
                 }, 
                 {
                  "id":149
-                }, 
+                },
+            
                 {
                  "id":150
                 }, 
@@ -1080,8 +1056,7 @@
                 }, 
                 {
                  "id":159
-                },
-            
+                }, 
                 {
                  "id":160
                 }, 
@@ -1202,8 +1177,7 @@
                 }, 
                 {
                  "id":199
-                },
-            
+                }, 
                 {
                  "id":200
                 }, 
@@ -1233,7 +1207,8 @@
                 }, 
                 {
                  "id":209
-                }, 
+                },
+            
                 {
                  "id":210
                 }, 
@@ -1263,8 +1238,7 @@
                 }, 
                 {
                  "id":219
-                },
-            
+                }, 
                 {
                  "id":220
                 }, 
@@ -1385,8 +1359,7 @@
                 }, 
                 {
                  "id":259
-                },
-            
+                }, 
                 {
                  "id":260
                 }, 
@@ -1416,7 +1389,8 @@
                 }, 
                 {
                  "id":269
-                }, 
+                },
+            
                 {
                  "id":270
                 }, 
@@ -1446,8 +1420,7 @@
                 }, 
                 {
                  "id":279
-                },
-            
+                }, 
                 {
                  "id":280
                 }, 
@@ -1568,8 +1541,7 @@
                 }, 
                 {
                  "id":319
-                },
-            
+                }, 
                 {
                  "id":320
                 }, 
@@ -1599,7 +1571,8 @@
                 }, 
                 {
                  "id":329
-                }, 
+                },
+            
                 {
                  "id":330
                 }, 
@@ -1629,8 +1602,7 @@
                 }, 
                 {
                  "id":339
-                },
-            
+                }, 
                 {
                  "id":340
                 }, 
@@ -1667,10 +1639,56 @@
                 {
                  "id":351
                 }],
-         "tilewidth":8
+         "tilewidth":8,
+         "wangsets":[
+                {
+                 "colors":[
+                        {
+                         "color":"#ff0000",
+                         "name":"",
+                         "probability":1,
+                         "tile":-1
+                        }],
+                 "name":"waterfall_platform",
+                 "tile":-1,
+                 "type":"mixed",
+                 "wangtiles":[
+                        {
+                         "tileid":80,
+                         "wangid":[0, 0, 1, 1, 1, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":81,
+                         "wangid":[0, 0, 1, 1, 1, 1, 1, 0]
+                        }, 
+                        {
+                         "tileid":82,
+                         "wangid":[0, 0, 1, 1, 1, 1, 1, 0]
+                        }, 
+                        {
+                         "tileid":83,
+                         "wangid":[0, 0, 0, 0, 1, 1, 1, 0]
+                        }, 
+                        {
+                         "tileid":96,
+                         "wangid":[1, 1, 1, 1, 1, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":97,
+                         "wangid":[1, 1, 1, 1, 1, 1, 1, 1]
+                        }, 
+                        {
+                         "tileid":99,
+                         "wangid":[1, 0, 0, 0, 1, 1, 1, 1]
+                        }]
+                }]
+        }, 
+        {
+         "firstgid":353,
+         "source":":\/automap-tiles.tsx"
         }],
  "tilewidth":8,
  "type":"map",
  "version":"1.10",
- "width":20
+ "width":30
 }

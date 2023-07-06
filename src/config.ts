@@ -1,3 +1,4 @@
+import AnimatedTiles from 'phaser-animated-tiles/src/plugin/main';
 import { BootScene } from './scenes/boot-scene';
 import { GameScene } from './scenes/game-scene';
 import { HUDScene } from './scenes/hud-scene';
@@ -16,13 +17,22 @@ export const GameConfig: Phaser.Types.Core.GameConfig = {
   input: {
     keyboard: true
   },
+  plugins: {
+    scene: [
+      {
+        key: 'AnimatedTiles',
+        plugin: AnimatedTiles,
+        mapping: 'animatedTiles'
+      }
+    ]
+  },
   physics: {
     default: 'arcade',
     arcade: {
       gravity: { y: 475 },
-      debug: false
+      // debug: true
     }
   },
-  backgroundColor: '#f8f8f8',
+  backgroundColor: '#27145d',
   render: { pixelArt: true, antialias: false }
 };

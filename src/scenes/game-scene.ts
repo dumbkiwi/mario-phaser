@@ -1,3 +1,4 @@
+import AnimatedTiles from 'phaser-animated-tiles/src/plugin/main';
 import { Box } from '../objects/box';
 import { Brick } from '../objects/brick';
 import { Collectible } from '../objects/collectible';
@@ -5,18 +6,25 @@ import { Goomba } from '../objects/goomba';
 import { Mario } from '../objects/mario';
 import { Platform } from '../objects/platform';
 import { Portal } from '../objects/portal';
+import { Gate } from '../objects/gate';
+import { Switch } from '../objects/switch';
 
 export class GameScene extends Phaser.Scene {
+  private animatedTiles!: AnimatedTiles;
+
   // tilemap
   private map: Phaser.Tilemaps.Tilemap;
   private tileset: Phaser.Tilemaps.Tileset;
   private backgroundLayer: Phaser.Tilemaps.TilemapLayer;
   private foregroundLayer: Phaser.Tilemaps.TilemapLayer;
+  private decorationLayer: Phaser.Tilemaps.TilemapLayer;
 
   // game objects
   private boxes: Phaser.GameObjects.Group;
   private bricks: Phaser.GameObjects.Group;
   private collectibles: Phaser.GameObjects.Group;
+  private gates: Phaser.GameObjects.Group;
+  private switches: Phaser.GameObjects.Group;
   private enemies: Phaser.GameObjects.Group;
   private platforms: Phaser.GameObjects.Group;
   private player: Mario;
@@ -54,8 +62,19 @@ export class GameScene extends Phaser.Scene {
     );
     this.foregroundLayer.setName('foregroundLayer');
 
+    // decorationLayer
+    this.decorationLayer = this.map.createLayer(
+      'decorationLayer',
+      this.tileset,
+      0,
+      0
+    );
+    this.decorationLayer.setName('decorationLayer');
+
     // set collision for tiles with the property collide set to true
     this.foregroundLayer.setCollisionByProperty({ collide: true });
+
+    this.decorationLayer.setCollisionByProperty({ collide: true });
 
     // *****************************************************************
     // GAME OBJECTS
@@ -80,6 +99,16 @@ export class GameScene extends Phaser.Scene {
       runChildUpdate: true
     });
 
+    this.gates = this.add.group({
+      /*classType: Gate,*/
+      runChildUpdate: true
+    });
+
+    this.switches = this.add.group({
+      /*classType: Switch,*/
+      runChildUpdate: true
+    });
+
     this.enemies = this.add.group({
       runChildUpdate: true
     });
@@ -96,6 +125,8 @@ export class GameScene extends Phaser.Scene {
     // *****************************************************************
     this.physics.add.collider(this.player, this.foregroundLayer);
     this.physics.add.collider(this.enemies, this.foregroundLayer);
+    this.physics.add.collider(this.player, this.decorationLayer);
+    this.physics.add.collider(this.enemies, this.decorationLayer);
     this.physics.add.collider(this.enemies, this.boxes);
     this.physics.add.collider(this.enemies, this.bricks);
     this.physics.add.collider(this.player, this.bricks);
@@ -140,6 +171,19 @@ export class GameScene extends Phaser.Scene {
       this
     );
 
+    this.physics.add.collider(
+      this.player,
+      this.gates,
+    );
+
+    this.physics.add.overlap(
+      this.player,
+      this.switches,
+      this.handlePlayerSwitchOverlap,
+      null,
+      this
+    )
+
     // *****************************************************************
     // CAMERA
     // *****************************************************************
@@ -150,6 +194,9 @@ export class GameScene extends Phaser.Scene {
       this.map.widthInPixels,
       this.map.heightInPixels
     );
+
+    // init animated tiles
+    this.animatedTiles.init(this.map);
   }
 
   update(): void {
@@ -161,6 +208,12 @@ export class GameScene extends Phaser.Scene {
     const objects = this.map.getObjectLayer('objects').objects as any[];
 
     objects.forEach((object) => {
+      // reduce object from an array to a single object
+      const objectProps: {[key: string]: any} = object.properties ? object.properties.reduce((obj: {[key: string]: any}, item: {name: string, type: string, value: string}) => {
+        obj[item.name] = item.value
+        return obj;
+      }, {} as {[key: string]: any}) : {};
+
       if (object.type === 'portal') {
         this.portals.add(
           new Portal({
@@ -170,9 +223,9 @@ export class GameScene extends Phaser.Scene {
             height: object.width,
             width: object.height,
             spawn: {
-              x: object.properties.marioSpawnX,
-              y: object.properties.marioSpawnY,
-              dir: object.properties.direction
+              x: objectProps.marioSpawnX,
+              y: objectProps.marioSpawnY,
+              dir: objectProps.direction
             }
           }).setName(object.name)
         );
@@ -181,8 +234,8 @@ export class GameScene extends Phaser.Scene {
       if (object.type === 'player') {
         this.player = new Mario({
           scene: this,
-          x: this.registry.get('spawn').x,
-          y: this.registry.get('spawn').y,
+          x: this.registry.get('spawn').x, // object.x,
+          y: this.registry.get('spawn').y, //object.y,
           texture: 'mario'
         });
       }
@@ -214,7 +267,7 @@ export class GameScene extends Phaser.Scene {
         this.boxes.add(
           new Box({
             scene: this,
-            content: object.properties.content,
+            content: objectProps.content,
             x: object.x,
             y: object.y,
             texture: 'box'
@@ -228,10 +281,38 @@ export class GameScene extends Phaser.Scene {
             scene: this,
             x: object.x,
             y: object.y,
-            texture: object.properties.kindOfCollectible,
+            texture: objectProps.kindOfCollectible,
             points: 100
           })
         );
+      }
+
+      if (object.type === 'gate') {
+        this.gates.add(
+          new Gate({
+            scene: this,
+            x: object.x,
+            y: object.y,
+            invert: objectProps.invert,
+            texture: objectProps.gateType,
+            tag: object.name
+          })
+        )
+      }
+
+      if (object.type === 'switch') {
+        this.switches.add(
+          new Switch({
+            scene: this,
+            x: object.x,
+            y: object.y,
+            texture: 'switch',
+            target: objectProps.target,
+            activeFrame: 1,
+            inactiveFrame: 0,
+            invert: objectProps.invert
+          })
+        )
       }
 
       if (object.type === 'platformMovingUpAndDown') {
@@ -270,6 +351,12 @@ export class GameScene extends Phaser.Scene {
         );
       }
     });
+  }
+
+  private handlePlayerSwitchOverlap(_player: Mario, _switch: Switch): void {
+    if (_player.getKeys().get('DOWN').isDown) {
+      _switch.toggleSwitch();
+    }
   }
 
   /**
@@ -357,7 +444,10 @@ export class GameScene extends Phaser.Scene {
       (_player.getKeys().get('DOWN').isDown &&
         _portal.getPortalDestination().dir === 'down') ||
       (_player.getKeys().get('RIGHT').isDown &&
-        _portal.getPortalDestination().dir === 'right')
+        _portal.getPortalDestination().dir === 'right') ||
+      (_player.getKeys().get('LEFT').isDown &&
+        _portal.getPortalDestination().dir === 'left') ||
+        _portal.getPortalDestination().dir === 'none'
     ) {
       // set new level and new destination for mario
       this.registry.set('level', _portal.name);
@@ -366,6 +456,11 @@ export class GameScene extends Phaser.Scene {
         y: _portal.getPortalDestination().y,
         dir: _portal.getPortalDestination().dir
       });
+
+      // set world
+      const levelStr = RegExp(/level(\d+)/).exec(_portal.name)
+      const roomStr = RegExp(/room(\d+)/).exec(_portal.name)
+      this.registry.set('world', `${levelStr ? levelStr[1].toString() : '0'}-${roomStr ? roomStr[1].toString() : '0'}`)
 
       // restart the game scene
       this.scene.restart();
@@ -405,6 +500,7 @@ export class GameScene extends Phaser.Scene {
       platform.body.touching.up &&
       player.body.touching.down
     ) {
+      //
     }
   }
 }
